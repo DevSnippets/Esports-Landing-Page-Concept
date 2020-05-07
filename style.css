@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.25rem;
+}
+
+.main-nav .navbar {
+    list-style: none;
+    display: flex;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 1.25rem;
+    font-size: 1.25rem;
+}
+
+
+.call-to-action {
+    display: flex;
+    padding-top: 2.56rem;
+    align-items: flex-start;
+}
+
+.call-to-action img {
+    width: 100%;
+    height: auto;
+    max-width: 50%;
+}
+
+.call-to-action-text h1 {
+    font-size: 3.052rem;
+    padding-top: 2.56rem;
+    margin-bottom: 1.25rem;
+}
+
+.call-to-action-text h1 span {
+    color: #c890ff;
+}
+
+.call-to-action-text p {
+    margin-bottom: 1.56rem;
+}
+
+.call-to-action-text a {
+    background: linear-gradient(to right, #c890ff, #a54dfd);
+    padding: 1.25rem 2.56rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 17px;
+    font-size: 1.56rem;
+    display: inline-block;
+    margin: 1.25rem 0;
+}
+
+.features-list {
+    padding: 2.56rem 0;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature .feature-text {
+    max-width: 400px;
+}
+
+.feature .feature-text h2 {
+    color: #6c63ff;
+    font-size: 2.441rem;
+    margin: 1.953rem 0 1rem;
+}
+
+.feature img {
+    margin: 1.25rem;
+    width: 100%;
+    max-width: 50%;
+    height: auto;
+}
+
+footer {
+    background: linear-gradient(to right, #c890ff, #a54dfd);
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 1rem;
+    color: white;
+    font-size: 1.25rem;
+}
